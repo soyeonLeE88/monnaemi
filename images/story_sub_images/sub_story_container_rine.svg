@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80.5" height="12" viewBox="0 0 80.5 12">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #ff7575;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: #ff7575;
+      }
+    </style>
+  </defs>
+  <g id="그룹_1258" data-name="그룹 1258" transform="translate(-1054.5 -2697)">
+    <line id="선_66" data-name="선 66" class="cls-1" x2="69" transform="translate(1054.5 2702.5)"/>
+    <circle id="타원_137" data-name="타원 137" class="cls-2" cx="6" cy="6" r="6" transform="translate(1123 2697)"/>
+  </g>
+</svg>
