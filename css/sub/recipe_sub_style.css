@@ -1,0 +1,503 @@
+#header_story {
+    background-color: #fff1d9;
+    height: 70px;
+}
+
+/*inner*/
+#intro_inner {
+    background-color: #FFE3B4;
+    height: 1618px;
+}
+
+.intro {
+    width: 1320px;
+    margin: 0px auto;
+}
+
+.__grid {
+    position: relative;
+}
+
+
+.grid_bg {
+    background-image: url(../../images/recipe_sub_image/recipe_background_line.png);
+    width: 1302px;
+    height: 673px;
+    margin-top: 37px;
+    position: absolute;
+}
+
+.salad_vegan {
+    width: 1176px;
+    height: 669px;
+}
+
+.recipe_memo {
+    background-color: white;
+    display: inline-block;
+    padding: 60px 50px;
+    text-align: center;
+    position: absolute;
+    top: 199px;
+    left: 107px;
+    z-index: 1;
+    rotate: -5deg;
+}
+
+.recipe_memo h2 {
+    font-family: 'TTTtangsbudaejjigaeB';
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.recipe_memo p {
+    font-size: 12px;
+    line-height: 27px;
+}
+
+.recipe_memo::before {
+    content: '';
+    position: absolute;
+    top: -50px;
+    left: 80px;
+    rotate: -34deg;
+    z-index: 2;
+    background: url(../../images/recipe_sub_image/recipe_tape_red.png) no-repeat;
+    background-size: 157px 55px;
+    width: 157px;
+    height: 551px;
+}
+
+
+.recipe_memo::after {
+    content: '';
+    position: absolute;
+    top: 260px;
+    right: -200px;
+    z-index: 2;
+    background: url(../../images/recipe_sub_image/recipe_tape_red.png) no-repeat;
+    background-size: 157px 55px;
+    width: 157px;
+    height: 551px;
+    rotate: -34deg;
+}
+
+
+.particle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.sb_ptc_1 {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    width: 590px;
+    height: 669px;
+    background: url(../../images/recipe_sub_image/recipe_dishes_img1_top.png);
+}
+
+
+.sb_ptc_2 {
+    position: absolute;
+    top: 140px;
+    left: 520px;
+    z-index: 3;
+    background-color: #A6DB67;
+    border: 1px solid #707070;
+    padding: 20px 18px;
+    rotate: 10deg;
+}
+
+.sb_ptc_2 ul li {
+    float: left;
+    font-family: 'TTTtangsbudaejjigaeB';
+}
+
+.sb_ptc_3 {
+    background-image: url(../../images/recipe_sub_image/cooking_representative1.png);
+    position: absolute;
+    top: 265px;
+    right: 160px;
+    width: 270px;
+    height: 270px;
+    background-size: 270px 270px;
+    z-index: 4;
+}
+
+.sb_btn {
+    position: absolute;
+    top: 220px;
+    right: 130px;
+    z-index: 5;
+}
+
+
+/*oriental_melon*/
+
+.oriental_melon {
+    width: 1290px;
+    height: 658px;
+    position: relative;
+}
+
+.recipe_memo_melon {
+    background-color: white;
+    display: inline-block;
+    padding: 60px 50px;
+    text-align: center;
+    position: absolute;
+    top: 200px;
+    right: 100px;
+    z-index: 1;
+    rotate: 2deg;
+}
+
+
+.recipe_memo_melon h2 {
+    font-family: 'TTTtangsbudaejjigaeB';
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.recipe_memo_melon p {
+    font-size: 12px;
+    line-height: 27px;
+}
+
+.recipe_memo_melon::before {
+    content: '';
+    position: absolute;
+    top: -60px;
+    left: 70px;
+    rotate: -34deg;
+    z-index: 2;
+    background: url(../../images/recipe_sub_image/recipe_tape_blue.png) no-repeat;
+    background-size: 157px 55px;
+    width: 157px;
+    height: 551px;
+}
+
+
+.recipe_memo_melon::after {
+    content: '';
+    position: absolute;
+    top: 320px;
+    right: -190px;
+    z-index: 2;
+    background: url(../../images/recipe_sub_image/recipe_tape_blue.png) no-repeat;
+    background-size: 157px 55px;
+    width: 157px;
+    height: 551px;
+    rotate: -34deg;
+}
+
+.sb_ptc_1_melon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 601px;
+    height: 629px;
+    background: url(../../images/recipe_sub_image/recipe_dishes_img2_bottom.png);
+}
+
+.sb_ptc_2_melon {
+    position: absolute;
+    top: 120px;
+    left: 180px;
+    width: 270px;
+    height: 270px;
+    background: url(../../images/recipe_sub_image/cooking_representative2.png);
+    background-repeat: no-repeat;
+}
+
+
+.sb_btn_melon {
+    position: absolute;
+    top: 360px;
+    left: 390px;
+    z-index: 3;
+}
+
+
+/*search*/
+
+.search_inner {
+    width: 1320px;
+    height: 160px;
+    margin: 0px auto;
+    position: relative;
+
+}
+
+.search_box {
+    position: relative;
+    width: 944px;
+    height: 52px;
+}
+
+.search_inner h2 {
+    font-size: 23px;
+    font-weight: 900;
+    margin-bottom: 23px;
+}
+
+.search_box input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #F68731;
+    padding: 10px 12px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.search_box img {
+    position: absolute;
+    width: 17px;
+    top: 10px;
+    right: 12px;
+    margin: 0;
+}
+
+.search_record ul li {
+    float: left;
+    background-color: #F68731;
+    border-radius: 8px;
+    margin-right: 11px;
+}
+
+.search_record ul li div {
+    padding: 14px 13px 14px 35px;
+    color: white;
+    background-image: url(../../images/recipe_sub_image/recipe_search_icon.png);
+    background-repeat: no-repeat;
+    background-position: top 17px left 10px;
+}
+
+
+.search_bookmark {
+    position: absolute;
+    top: 9px;
+    right: 0px;
+    width: 259px;
+    height: 141px;
+}
+
+.search_bookmark ul li {
+    background-color: #F68731;
+    float: left;
+    color: white;
+    border-radius: 11px;
+}
+
+.search_bookmark ul li p {
+    padding: 19px 13px;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.search_bookmark ul li:nth-child(1) {
+    margin-right: 14.7px;
+}
+
+.book_bo {
+    background-color: #F68731;
+    color: white;
+    border-radius: 11px;
+    padding: 19px 41px;
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: 75px;
+}
+
+/**/
+
+.recipe_container {
+    width: 1320px;
+    height: 3926px;
+    margin: 142px auto;
+    position: relative;
+}
+
+.best_top_recipe {
+    width: 985px;
+    height: 494px;
+}
+
+
+.best_top_recipe h2 {
+    font-size: 23px;
+    font-weight: 900;
+    padding: 0px 0px 29px 22px;
+}
+
+
+.sub_name {
+    color: #F68731;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.name {
+    font-size: 17px;
+    font-family: 'TTTtangsbudaejjigaeB';
+    padding: 14px 0px 37px 0px;
+}
+
+
+.best_top_recipe ul li a figure img {
+    border-radius: 19px;
+}
+
+.best_top_recipe ul li {
+    float: left;
+}
+
+.best_top_recipe ul li:nth-child(2) {
+    margin: 0px 15px 0px 15px;
+}
+
+.con1_padding_left {
+    margin: 12px 0px 0px 21px;
+}
+
+
+/*recipe_description*/
+
+.recipe_description {
+    width: 985px;
+    position: relative;
+}
+
+
+.description {
+    width: 480px;
+    display: inline-block;
+}
+
+.topmargin{
+    margin-top: 124px;
+}
+
+.description_img img {
+    border-radius: 19px 19px 0px 0px;
+}
+
+.description_text {
+    margin-top: -5px;
+    border-radius: 0px 0px 19px 19px;
+    background-color: white;
+    border: 1px solid #666666;
+    padding: 50px 20px;
+}
+
+.description_text h2 {
+    font-family: 'TTTtangsbudaejjigaeB';
+    font-size: 18px;
+}
+
+.description_text p {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 500;
+    margin-top: 14px;
+}
+
+.character {
+    float: right;
+}
+
+.description_ch {
+    margin-top: 120px;
+}
+
+.fork {
+    position: absolute;
+    top: -10px;
+    right: -219px;
+    animation: fork 1.7s infinite linear;
+}
+
+@keyframes fork {
+    0% {
+        top: -10px;
+        right: -219px;
+    }
+
+    50% {
+        top: -50px;
+        right: -219px;
+    }
+
+    100% {
+        top: -10px;
+        right: -219px;
+    }
+
+}
+
+
+/*recipe_sidebar*/
+
+.recipe_sidebar{
+    width: 292px;
+    position: absolute;
+    top: 60px;
+    right: 0px;
+}
+
+.sidebar_mini_banner img{
+    border-radius: 19px;   
+}
+
+.sidebar_mini_banner_imgbox img{
+    border-radius: 19px;
+}
+
+.sidebar_mini_banner_imgbox{
+    width: 259px;
+    height: 223px;
+    margin-top: 25px;
+    position: relative;
+}
+
+.sidebar_mini_best_recipe_deco{
+    position: absolute;
+    top: -15px;
+    left: -25px;
+    rotate: -20deg;
+}
+
+
+.sidebar_text_img{
+    margin-top: 20px;
+}
+.sidebar_text_img li{
+    float: left;
+    margin-right: 8px;
+}
+
+.sidebar_text_img li:nth-child(2){
+    margin-right: 30px;
+}
+
+.sidebar_inner_texts li h2{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.sidebar_inner_texts li p{
+    line-height: 21px;
+    font-size: 14px;
+}
+
+.sidebar_inner_texts{
+    border-bottom: 1px solid #707070;
+    height: 160px;
+    margin-bottom: 20px;
+}
+

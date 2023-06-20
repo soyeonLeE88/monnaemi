@@ -1,0 +1,316 @@
+#header_story{
+    background-color: #C1E4DE;
+    height: 70px;
+}
+
+
+.menu li:nth-child(1) a {
+  color: #ee3c2c;
+}
+
+
+/*banner*/
+
+.conts{
+    height: 984px;
+}
+.story_banner_inner{
+    background-color: #84CABD;
+    height: 884px;
+}
+.story_banner{
+    margin: 0px auto;
+    width: 1320px;
+    height: 984px;
+    position: relative;
+}
+
+.story_banner h2{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    line-height: 65px;
+    font-family: 'TTTtangsbudaejjigaeB';
+}
+
+.gif1{
+    position: absolute;
+    bottom: 150px;
+    left: 360px;
+    z-index: 1;
+}
+
+.gif2{
+    position: absolute;
+    bottom: 270px;
+    left: 90px;
+    z-index: 1;
+}
+
+.gif3{
+    position: absolute;
+    bottom: 200px;
+    right: 200px;
+    z-index: 2;
+}
+
+.gif4{
+    position: absolute;
+    bottom: 167px;
+    right: 306px;
+    z-index: 2;
+}
+
+.gif5{
+    position: absolute;
+    bottom: 265px;
+    right: 235px;
+    z-index: 1;
+}
+
+.story_vido{
+    width: 1320px;
+    height: 822px;
+    margin: 0px auto;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.story_vido p{
+    margin-top: 50px;
+    line-height: 21px;
+    font-size: 14px;
+}
+
+
+/*background_fiexd*/
+#background_img_fiexd02{
+    width: 100%; height: 444px;
+    /* 배경이미지는 최소 1920*960으로 제작해야 문제가 안생김 */
+    background-image: url(../../images/story_sub_images/background_img1_text.png);
+    background-repeat: no-repeat; /* 배경이미지X */
+    background-size: cover; /* 요소를 비율에 맞게 커버 */
+    background-position: center; /* 이미지를 요소의 정가운데로 처리 */
+    background-attachment: fixed; /* 스크롤바 움직일때 이미지가 따라다님 */
+  
+    display: table;
+  }
+
+
+  /*story_container*/
+
+  #story_container{
+    margin: 0px auto;
+    height: 2657px;
+    width: 1320px;
+  }
+
+  .con_top1{
+    height: 707px;
+    position: relative;
+  }
+
+  .top1_leftone{
+    position: absolute;
+    top: 152px;
+    left: -40px;
+  }
+
+  .top1_lefttwo{
+    position: absolute;
+    top: 82px;
+    left: 98px;
+  }
+
+  .top1_rightimg{
+    position: absolute;
+    bottom: 0px;
+    right: 198px;
+  }
+
+  
+  .top1_rine{
+    position: absolute;
+    top: 132px;
+    right: 485px;
+  }
+
+  
+  .top1_text{
+    position: absolute;
+    top: 130px;
+    right: 50px;
+  }
+
+  .top1_text h2{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 22px;
+  }
+
+  .top1_text p{
+    font-size: 14px;
+    line-height: 21px; 
+  }
+
+  .contwo{
+    position: relative;
+  }
+
+  .top2_leftone{
+    position: absolute;
+    left: 222px;
+    bottom: 0px;
+  }
+
+  .top2_righttwo{
+    position: absolute;
+    top: 0px;
+    right: 54px;
+  }
+
+  .top2_rine{
+    transform: scaleX(-1);
+    position: absolute;
+    top: 82px;
+    left: 490px;
+  }
+
+  .top2_text{
+    position: absolute;
+    top: 75px;
+    left: 61px;
+  }
+
+  .top2_text h2{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 22px;
+  }
+
+  .top2_text p{
+    font-size: 14px;
+    line-height: 21px; 
+  }
+
+
+  .top3_text{
+    position: absolute;
+    top: 130px;
+    right: 20px;
+  }
+
+  .top3_text h2{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 22px;
+  }
+
+  .top3_text p{
+    font-size: 14px;
+    line-height: 21px; 
+  }
+
+  /*story_advantage*/
+
+  #story_advantage{
+    background-image: url(../../images/story_sub_images/background_img2_text.jpg);
+    background-repeat: no-repeat;
+    height: 765px;
+    background-position: bottom center;
+  }
+  
+
+  .advantage{
+    width: 1320px;
+    margin: 0px auto;
+  }
+
+  .advantage ul li{
+    margin-top: 100px;
+    margin-left: 1%;
+    text-align: center;
+    background-color: white;
+    display: inline-block;
+    padding: 53px 111px;
+    border-radius: 32px;
+    box-shadow: 4px 4px 18px #0000002a;
+  }
+
+  .advantage ul li p{
+    margin-top: 58px;
+  }
+
+
+  /*story contact us*/
+  .story_contact_us_inner{
+    width: 1300px;
+    height: 431px;
+    margin: 0px auto;
+    position: relative;
+  }
+
+  .story_contact_us_right{
+    float: left;
+    width: 530px;
+    height: 193px;
+  }
+  
+  .right_titi{
+    width: 196px;
+    height: 42px;
+    background-color: #0A8C5F;
+    color: white; 
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 7px 25px;
+    box-sizing: border-box;
+    margin-top: 128px;
+  }
+
+  .right_titi li{
+    float: left;}
+
+    .right_titi li:nth-child(2){
+        margin: 0px 10px;
+    }
+
+    .story_contact_us_right h2{
+        font-weight: 900;
+        font-size: 40px;
+        margin: 26px 0px 8px 0px;
+    }
+
+    @keyframes star{
+        0%{transform: rotate(0deg);}
+        100%{transform: rotate(-360deg);}
+    }
+    .left_rotate{
+        animation: star 12s infinite linear;
+    }
+
+    .story_contact_us_left{
+        float: right;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .left_rotate{
+        position: absolute;
+        top: 123px;
+        right: 65px;
+    }
+
+    .left_p{
+        position: absolute;
+        top: 210px;
+        right: 140px;
+    }
+
+    .arrow{
+        position: absolute;
+        top: 30px;
+        right: 390px;
+    }

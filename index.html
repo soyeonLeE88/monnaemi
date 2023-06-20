@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1400">
+    <title>MONNAEMI</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favorite_icon.png">
+    <link rel="stylesheet" href="css/main/main_style.css">
+    <link rel="stylesheet" href="css/main/slick-theme.css">
+    <link rel="stylesheet" href="css/main/slick.css">
+    <link rel="stylesheet" href="css/main/slide_style.css">
+    <script src="js/main_js/jquery-3.6.4.min.js"></script>
+</head>
+
+<body>
+  <!-- Scroll to top button -->
+<a id="scroll-to-top"><i class="fas fa-angle-up"><img src="/images/main_page_image/scroll_to_top_icon.png" alt=""></i></a>
+
+    <div class="overflow"><!--하단 스크롤 방지-->
+        <header id="header"><!--배경색/너비-->
+            <div class="inner_header"><!--magin auto-->
+                <h1 id="logo"><!--로고 높이/ 로고 너비-->
+                    <a href="javascript:return false;">
+                        <img src="images/monnemi_logo.svg" alt="몬내미 로고">
+                    </a>
+                </h1>
+
+                <nav class="menu_container">
+                    <ul class="menu"><!--오른쪽 여백/float right-->
+                        <li><a href="sub/story_sub.html">이야기</a></li>
+                        <li><a href="sub/market_sub.html">몬내미 마켓</a></li>
+                        <li><a href="sub/recipe_sub.html">레시피</a></li>
+                        <li><a href="sub/event_sub_dogcat.html">이벤트</a></li>
+                        <li><a href="sub/monnemi_box_sub.html">정기박스</a></li>
+                    </ul>
+                    <nav class="etc">
+                        <ul>
+                            <li class="member"><a href="javascript:return false;"><img src="images/account-circle-line.svg" alt="멤버십 아이콘"></a>
+                            </li>
+                            <li class="search"><a href="javascript:return false;"><img src="images/search-2-line.svg" alt="검색 아이콘"></a></li>
+                        </ul>
+                    </nav>
+                </nav>
+            </div>
+        </header><!--header end-->
+
+        <div class="main_banner">
+            <div class="main_visual">
+                <div class="wrap">
+                    <figure class="main_illust_visual_01">
+                        <img src="images/main_page_image/main_jt_motion_sproing01.svg" alt="컬러무" width="86" height="96">
+                    </figure>
+                    <figure class="main_illust_visual_02">
+                        <img src="images/main_page_image/main_jt_motion_sproing02.svg" alt="하얀무" width="97px" height="156px">
+                    </figure>
+                    <figure class="main_illust_visual_03">
+                        <img src="images/main_page_image/main_jt_motion_sproing03.svg" alt="브로콜리" width="142" height="152">
+                    </figure>
+                    <figure class="main_illust_visual_04">
+                        <img src="images/main_page_image/main_jt_motion_sproing04.svg" alt="토마토" width="120" height="118">
+                    </figure>
+                </div>
+            </div>
+        </div><!--main_banner end-->
+
+        <div class="br_introduction">
+            <div class="con1">
+                <div class="link">
+                    <ul class="link one">
+                        <li>
+                            <button id="button1">
+                                몬내미 <br>
+                                소개</button>
+                        </li>
+                        <li>
+                            <button id="button2">
+                                몬내미<br>
+                                이야기
+                            </button>
+                        </li>
+                        <li>
+                            <button id="button3">
+                                몬내미<br>
+                                신청
+                            </button>
+                        </li>
+                        <li>
+                            <button id="button4">
+                                정기박스<br>
+                                특징
+                            </button>
+                        </li>
+                        <li>
+                            <button id="button5">
+                                몬내미<br>
+                                레시피
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="title">
+                    <small>MONNAEMI INTRODUCTION</small>
+                    <h3>몬내미 INTRODUCTION</h3>
+                </div><!--title end-->
+
+
+                <!--각페이지-->
+
+                <div class="main_con2_margin_box"></div><!--감싸는 박스에 높이 너비/-->
+
+                <div id="section_wrap">
+                    <div class="introduction"><!--container1/position: relative_글자들-->
+                        <div class="circle_deco">
+                            <img src="images/main_page_image/circle_deco1.svg" alt="노란원">
+                        </div><!--circle_deco-->
+
+                        <div class="introduction_inner"><!--position:absolute?/background-color:white-->
+                            <div class="slide_inner"><!--position:absolute-->
+                                <div class="slide_inner_text"><!--display:inline-block/position:relative-->
+                                    <h2><img src="images/main_page_image/slide_inner_text1.png" alt="UGLY IS individuality"></h2>
+                                    <p>'못 생겼으니 맛 없을 것이다.' 라는 편견 대신 '못 생겼으니 개성적이다.' <br>
+                                        라는 인식이 붙을 그 날까지. 몬내미는 농가와 소비자를 잇는 공정한 다리가 <br>
+                                        되어 드리겠습니다.</p>
+                                    <button type="button" class="btn"> <a href="/sub/story_sub.html">->자세히 보기</a> </button>
+                                </div>
+
+                                <div class="slide_inner_img">
+                                    <!--position:absolute/transition/opacity/display:inline-block-->
+                                    <div class="slide_img paprika"><img src="images/main_page_image/main_paprika.png" alt="파프리카 이미지"
+                                            width="570px" height="570px"></div>
+                                    <div class="chara1"><img src="images/main_page_image/main_introduction_character1.gif" alt="움직이는 톰"
+                                            width="205px" height="198px"></div>
+
+                                    <div class="slide_inner_img1">
+                                        <img src="images/main_page_image/main_spinach.png" alt="시금치 이미지" width="272px" height="215px">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div><!--introduction_inner end-->
+                    </div><!--introduction end-->
+
+
+                    <div class="story"><!--container1/position: relative_글자들-->
+                        <div class="circle_deco">
+                            <img src="images/main_page_image/circle_deco2.svg" alt="노란원">
+                        </div><!--circle_deco-->
+
+                        <div class="introduction_inner"><!--position:absolute?/background-color:white-->
+                            <div class="slide_inner"><!--position:absolute-->
+                                <div class="slide_inner_text"><!--display:inline-block/position:relative-->
+                                    <h2><img src="images/main_page_image/slide_inner_text2.png" alt="UGLY IS Fresh Greens"></h2>
+                                    <p>맛과 영양이 뛰어나지만 다르다는 이유로 버려지는 몬내미들은 <br>
+                                        버려지는 과정에서 환경오염을 유발할 뿐만 아니라 농가에도 큰 피해를 입히고 있어요! <br>
+                                        지구 온난화를 가속시키는 농산물 폐기문제를 함께 해결해볼까요?</p>
+                                    <button type="button" class="btn"> <a href="sub/market_sub.html">->자세히 보기</a> </button>
+                                </div>
+
+                                <div class="slide_inner_img">
+                                    <!--position:absolute/transition/opacity/display:inline-block-->
+                                    <div class="slide_img spinach"><img src="images/main_page_image/main_spinach.png" alt="시금치 이미지"
+                                            width="650px" height="517px"></div>
+                                    <div class="chara2"><img src="images/main_page_image/main_introduction_character2.gif"
+                                            alt="움직이는 톰마토" width="361px" height="213px"></div>
+
+                                    <div class="slide_inner_img2">
+                                        <img src="images/main_page_image/main_carrot.png" alt="당근 이미지" width="230px" height="311px">
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div><!--introduction_inner end-->
+                    </div><!--introduction end-->
+
+                    <div class="applcation"><!--container1/position: relative_글자들-->
+                        <div class="circle_deco">
+                            <img src="images/main_page_image/circle_deco3.svg" alt="초록원">
+                        </div><!--circle_deco-->
+
+                        <div class="introduction_inner"><!--position:absolute?/background-color:white-->
+                            <div class="slide_inner"><!--position:absolute-->
+                                <div class="slide_inner_text"><!--display:inline-block/position:relative-->
+                                    <h2><img src="images/main_page_image/slide_inner_text3.png" alt="UGLY IS Fresh Greens"></h2>
+                                    <p>몬내미들의 개성적인 외형으로 판로를 잃어 곤란한 상황이신가요? <br>
+                                        일시적인 구조 문제로 판로를 잃은 농산물, 공급 과다로 생긴 잉여 농산물도 <br>
+                                        거래하실 수 있는 판로가 되어 드리겠습니다. <br>
+                                        <button type="button" class="btn"> <a href="#">->자세히 보기</a> </button>
+                                </div>
+
+                                <div class="slide_inner_img">
+                                    <!--position:absolute/transition/opacity/display:inline-block-->
+                                    <div class="slide_img carrot"><img src="images/main_page_image/main_carrot.png" alt="당근 이미지"
+                                            width="466px" height="633px"></div>
+                                    <div class="chara3"><img src="images/main_page_image/main_introduction_character3.gif" alt="움직이는 당근"
+                                            width="182px" height="108px"></div>
+
+                                    <div class="slide_inner_img3">
+                                        <img src="images/main_page_image/main_lemon.png" alt="레몬 이미지" width="244px" height="204px">
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div><!--introduction_inner end-->
+                    </div><!--introduction end-->
+
+                    <div class="regular_box"><!--container1/position: relative_글자들-->
+                        <div class="circle_deco">
+                            <img src="images/main_page_image/circle_deco4.svg" alt="연노랑원">
+                        </div><!--circle_deco-->
+
+                        <div class="introduction_inner"><!--position:absolute?/background-color:white-->
+                            <div class="slide_inner"><!--position:absolute-->
+                                <div class="slide_inner_text"><!--display:inline-block/position:relative-->
+                                    <h2><img src="images/main_page_image/slide_inner_text4.png" alt="UGLY IS individuality"></h2>
+                                    <p>원하는 구성으로 담은 몬내미들을 매주 받아 볼 수 있어요! <br>
+                                        사연을 가지고 있지만 가장 신선한 채소들로 지구도 살리고<br>
+                                        우리 식탁도 푸릇하게 만들어 건강도 지켜봐요.</p>
+                                    <button type="button" class="btn"> <a href="sub/event_sub_monnaemi_box.html">->자세히 보기</a> </button>
+                                </div>
+
+                                <div class="slide_inner_img">
+                                    <!--position:absolute/transition/opacity/display:inline-block-->
+                                    <div class="slide_img lemon"><img src="images/main_page_image/main_lemon.png" alt="레몬 이미지"
+                                            width="448px" height="373px"></div>
+                                    <div class="chara4"><img src="images/main_page_image/main_introduction_character4.gif" alt="달리는 톰토마"
+                                            width="332px" height="192px"></div>
+
+                                    <div class="slide_inner_img4">
+                                        <img src="images/main_page_image/main_mushroom.png" alt="버섯" width="248px" height="174px">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div><!--introduction_inner end-->
+                    </div><!--introduction end-->
+
+                    <div class="recipe"><!--container1/position: relative_글자들-->
+                        <div class="circle_deco">
+                            <img src="images/main_page_image/circle_deco5.svg" alt="빨간원">
+                        </div><!--circle_deco-->
+
+                        <div class="introduction_inner"><!--position:absolute?/background-color:white-->
+                            <div class="slide_inner"><!--position:absolute-->
+                                <div class="slide_inner_text"><!--display:inline-block/position:relative-->
+                                    <h2><img src="images/main_page_image/slide_inner_text5.png" alt="UGLY IS delicious"></h2>
+                                    <p>몬내미들로 요리 가능한 레시피를 함께 공유 해봅시다. <br>
+                                        각 요리에 대한 다른 사람들의 요리팁과 후기를 한눈에 볼 수 있어요. <br>
+                                        늘상 머리 아프게 짜던 한주의 식단도 함께 짤 수 있으니 1석 2조!</p>
+                                    <button type="button" class="btn"> <a href="sub/recipe_sub.html">->자세히 보기</a> </button>
+                                </div>
+
+                                <div class="slide_inner_img">
+                                    <!--position:absolute/transition/opacity/display:inline-block-->
+                                    <div class="slide_img mushroom"><img src="images/main_page_image/main_mushroom.png" alt="버섯 이미지"
+                                            width="640px" height="446px"></div>
+                                    <div class="chara5"><img src="images/main_page_image/main_introduction_character5.gif" alt="달리는 콜리"
+                                            width="286px" height="202px"></div>
+                                </div>
+
+                            </div>
+
+                        </div><!--introduction_inner end-->
+                    </div><!--introduction end-->
+
+                </div>
+
+            </div><!--con1 end-->
+        </div><!--br_introduction end-->
+
+        <div class="main_con2">
+            <div class="light">
+                <div class="con2_text_top">
+                    <small>채소와 지구와 식탁을 구해줄 우리들</small>
+                    <h2>바꿀 수는 없어도 변화할 수 있는 <br>
+                        우리들이 모였으니까.
+                    </h2>
+                </div>
+
+                <div class="main_con2_margin_box"></div>
+
+                <div class="con2_text_bottom"><!--background img_장바구니-->
+                    <div class="basket_position"><img src="images/main_page_image/main_shopping_basket.png" alt="장바구니" width="266px"
+                            height="296px"></div>
+                    <ul class="con2_text">
+                        <li><small>누적가입자수</small>
+                            <div class="text_margin_box"></div>
+                            <h2 id="counter1">3500</h2>
+                            <p> 명</p>
+                        </li>
+                        <li><small>바뀐 식탁수</small>
+                            <div class="text_margin_box"></div>
+                            <h2 id="counter2">2000</h2>
+                            <p>개의 식탁</p>
+                        </li>
+                        <li><small>누적 절약금액</small>
+                            <div class="text_margin_box"></div>
+                            <h2 id="counter3">12,9900</h2>
+                            <p>원</p>
+                        </li>
+                        <li><small>절약한 온실가스</small>
+                            <div class="text_margin_box"></div>
+                            <h2 id="counter4">83,754</h2>
+                            <p>kgCO2e</p>
+                        </li>
+                    </ul><!--text_center end-->
+                    <div class="con1_img2">
+                        <img src="images/main_page_image/main_con1_img2.png" alt="받침대">
+                    </div>
+                </div><!--con2_text_bottom end-->
+            </div><!--light end-->
+
+            <div id="player">
+                <div class="con2_text_top playertext" style="text-align:right">
+                    <small>우리가 몰라서 지금까지 버려지던 못난이 채소들</small>
+                    <h2>몬내미들의 이야기 <br>
+                        알고 계셨어요?
+                    </h2>
+                </div>
+                <div id="youtube">
+                    <iframe width="1123" height="632" src="https://www.youtube.com/embed/PqxCeoWxcrU"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div><!--main_con2 end-->
+
+        <div class="flow_banner">
+            <ul class="list">
+                <li><img src="images/main_page_image/main_marquees.svg" alt=""></li>
+            </ul>
+        </div>
+
+        <div id="main_save">
+            <div class="margin_auto">
+                <div class="title">
+                    <small>MONNAEMI MARKET</small>
+                    <h3>몬내미 MARKET</h3>
+                </div><!--title end-->
+
+                <!--regular slider-->
+                <section class="regular slider">
+                    <div>
+                       <a href="javascript:return false;"> <img src="images/main_page_image/main_save_oriental melon.png" width="366px" height="458px"
+                            style="border-radius: 13px;">
+                        <div class="slider_text" style="text-align: center;">
+                            <p style="font-size: 18px; padding-top: 21px;">성주 가정용 못난이 꿀참외 2kg/3kg</p>
+                            <h2 style="font-size: 18px; padding-top: 6px; font-weight: bold;">22,900원</h2>
+                        </div>
+                    </a>
+                    </div>
+                    <div>
+                        <a href="javascript:return false;">
+                        <img src="images/main_page_image/main_save_apple.png" width="366px" height="458px" style="border-radius: 13px;">
+                        <div class="slider_text" style="text-align: center;">
+                            <p style="font-size: 18px; padding-top: 21px;">안동 부사사과(가정용) 2.5kg/5kg</p>
+                            <h2 style="font-size: 18px; padding-top: 6px; font-weight: bold;">11,900원</h2>
+                        </div>
+                    </a>
+                    </div>
+                    <div>
+                        <a href="javascript:return false;">
+                        <img src="images/main_page_image/main_save_banana.png" width="366px" height="458px"
+                            style="border-radius: 13px;">
+                        <div class="slider_text" style="text-align: center;">
+                            <p style="font-size: 18px; padding-top: 21px;">[주별 한정 수량] 경남 산청 국내산 바나나 3kg</p>
+                            <h2 style="font-size: 18px; padding-top: 6px; font-weight: bold;">11,400원</h2>
+                        </div>
+                    </a>
+                    </div>
+                    <div>
+                        <a href="javascript:return false;">
+                        <img src="images/main_page_image/main_save_paprika.png" width="366px" height="458px" style="border-radius: 13px;">
+                        <div class="slider_text" style="text-align: center;">
+                            <p style="font-size: 18px; padding-top: 21px;">몬내미 미니 파프리카 2kg</p>
+                            <h2 style="font-size: 18px; padding-top: 6px; font-weight: bold;">19,000원</h2>
+                        </div>
+                    </a>
+                    </div>
+                    <div>
+                        <a href="javascript:return false;">
+                        <img src="images/main_page_image/main_save_apple_2.png" width="366px" height="458px" style="border-radius: 13px;">
+                        <div class="slider_text" style="text-align: center;">
+                            <p style="font-size: 18px; padding-top: 21px;">경북 청송사과 5kg</p>
+                            <h2 style="font-size: 18px; padding-top: 6px; font-weight: bold;">25,400원</h2>
+                        </div>
+                    </a>
+                    </div>
+                    <div>
+                        <a href="javascript:return false;">
+                        <img src="images/main_page_image/main_save_cucumber.png" width="366px" height="458px" style="border-radius: 13px;">
+                        <div class="slider_text" style="text-align: center;">
+                            <p style="font-size: 18px; padding-top: 21px;">여주 몬내미 백오이2kg</p>
+                            <h2 style="font-size: 18px; padding-top: 6px; font-weight: bold;">11,800원</h2>
+                        </div>
+                    </a>
+                    </div>
+                </section>
+            </div>
+
+        </div>
+
+        <div id="main_recipe_inner">
+            <div class="title">
+                <small>MONNAEMI RECIPE</small>
+                <h3>몬내미 RECIPE</h3>
+            </div><!--title end-->
+            <div style="height: 113px;"></div>
+            <div class="main_recipe">
+                <div class="recipe_left">
+                    <div class="recipe_left_top">
+                        <img src="images/main_page_image/main_recipe_img1.png" alt="감자샐러드">
+                        <div class="cover" style="text-align:right">
+                            <div class="cover_text">
+                                <div style="height: 31px;"></div>
+                                <h2>감자샐러드</h2>
+                                <div style="height: 14px;"></div>
+                                <p>
+                                    메뉴 활용도 최고! 요리잘알들만 아는 <br>
+                                    든든 레시피랍니다! 그냥 먹어도 좋고, <br>
+                                    빵과 곁들여 먹으면 하루 온종일 든든! <br>
+                                    감자와 달걀을 잘 삶아주고 취향껏 채소 <br>
+                                    를 넣으면 끝인 간단 조리법! 보러와요!
+                                </p>
+                                <div style="height: 20px;"></div>
+                                <a href="javascript:return false;" class="btn_over">-> 자세히 보기</a>
+                            </div>
+                        </div><!--cover end-->
+                    </div>
+                    <div class="recipe_left_bottom">
+                        <img src="images/main_page_image/main_recipe_img2.png" alt="양배추 스테이크">
+                        <div class="cover" style="text-align:right">
+                            <div class="cover_text">
+                                <div style="height: 31px;"></div>
+                                <h2>양배추 스테이크</h2>
+                                <div style="height: 14px;"></div>
+                                <p>
+                                    다이어트 하시는 분들께 강력 추천 <br>
+                                    드리는 레시피! 굽기만 해도 맛있게 <br>
+                                    먹을 수 있는 양배추 스테이크예요. <br>
+                                    큼직하게 썰어 먹으면 많은 양배추 <br>
+                                    한 통도 금새 없어질 거예요!
+                                </p>
+                                <div style="height: 20px;"></div>
+                                <a href="javascript:return false;" class="btn_over">-> 자세히 보기</a>
+                            </div>
+                        </div><!--cover end-->
+                    </div>
+                </div>
+
+                <div class="recipe_left_center">
+                    <img src="images/main_page_image/main_recipe_img5.png" alt="감자 단호박 샌드위치">
+                    <div class="cover" style="text-align:right">
+                        <div class="cover_text center">
+                            <div style="height: 105px;"></div>
+                            <span style="color: white; font-weight: 200;" class="border"><img
+                                    src="images/main_page_image/main_recipe_icon1.svg" alt="왕관아이콘" style="padding-right: 4px;">Best
+                                Recipe</span>
+                            <div style="height: 15px;"></div>
+                            <h2>감자 단호박 샌드위치</h2>
+                            <div style="height: 10px;"></div>
+                            <p>
+                                채소 안 먹는 아이들 입맛을 사로 잡는 비주얼! <br>
+                                예쁜 색감과 달콤한 맛 덕분에 아이들도 거부감 <br>
+                                없이 먹을 수 있는 샌드위치예요. 부담없이 먹는 <br>
+                                감자 단호박 샌드위치로 우리 가족 한끼 가볍고 <br>
+                                든든하게 챙겨보시는 건 어떨까요?
+                            </p>
+                            <div style="height: 82px;"></div>
+                            <a href="javascript:return false;" class="btn_over">-> 자세히 보기</a>
+                        </div>
+                    </div><!--cover end-->
+
+                </div>
+
+                <div class="recipe_right">
+                    <div class="recipe_right_top">
+                        <img src="images/main_page_image/main_recipe_img3.png" alt="마늘보양죽">
+                        <div class="cover" style="text-align:right">
+                            <div class="cover_text">
+                                <div style="height: 31px;"></div>
+                                <h2>마늘보양죽</h2>
+                                <div style="height: 14px;"></div>
+                                <p>
+                                    요즘 죽은 비싸다? 그렇다면 집에 <br>
+                                    있는 재료들로 만들어 먹으면 되죠! <br>
+                                    마늘의 단맛과 쫀득한 식감이 덕분에 <br>
+                                    힘든 날 간편하고 든든하게 먹기 좋은 <br>
+                                    레시피예요! 함께 마늘죽 끓여볼까요?
+                                </p>
+                                <div style="height: 20px;"></div>
+                                <a href="javascript:return false;" class="btn_over">-> 자세히 보기</a>
+                            </div>
+                        </div><!--cover end-->
+                    </div>
+                    <div class="recipe_right_bottom">
+                        <img src="images/main_page_image/main_recipe_img4.png" alt="">
+                        <div class="cover" style="text-align:right">
+                            <div class="cover_text">
+                                <div style="height: 31px;"></div>
+                                <h2>방울 양배추 감자볶음</h2>
+                                <div style="height: 14px;"></div>
+                                <p>
+                                    작고 귀여운 방울양배추와 알감자로 <br>
+                                    만드는 간단 볶음 요리랍니다. 보기만 <br>
+                                    해도 동글동글 해서 귀엽지만 맛 또한 <br>
+                                    으뜸! 방울 양배추를 어떻게 요리하면 <br>
+                                    좋을 지 모르겠을때 참고하세요!
+                                </p>
+                                <div style="height: 20px;"></div>
+                                <a href="javascript:return false;" class="btn_over">-> 자세히 보기</a>
+                            </div>
+                        </div><!--cover end-->
+                    </div>
+                </div>
+                <div class="main_recipe_btn">
+                    <p><a href="sub/recipe_sub.html">더 많은 레시피 보기</a> </p>
+                </div>
+
+                <div class="main_recipe_icon2">
+                    <img src="images/main_page_image/main_recipe_icon2.png" alt="포크 이미지" style="width: 133px; height: 283px;">
+                </div>
+                <div class="main_recipe_icon3">
+                    <img src="images/main_page_image/main_recipe_icon3.png" alt="스티커" style="width: 181px; height: 123px;">
+                </div>
+            </div><!--main_recipe end-->
+        </div><!--main_recipe_inner end-->
+
+        <div id="background_img_fiexd01">
+            <div class="fiexd01_text">
+                <p>개성적인 외모만큼이나 <br>
+                    맛과 영양은 물론 신선도까지 좋은 몬내미들이 버려지지 않을 방법을 고민합니다.
+                </p>
+            </div>
+        </div><!--background_img_fiexd end-->
+
+        <div id="main_event_inner">
+            <div class="title" style="margin: 0px auto; width: 1320px;">
+                <small>MONNAEMI EVENT</small>
+                <h3>몬내미 EVENT</h3>
+            </div><!--title end-->
+            <div style="height: 113px;"></div>
+
+            <div class="main_event eventtop">
+                <div class="main_event_textbox01">
+                    <div class="event_img1"><img src="images/main_page_image/main_event_icon1.png" alt="토마토 아이콘"
+                            style="width: 71px; height: 73px;"></div>
+                    <div class="event_img2"><img src="images/main_page_image/main_event_text1.png" alt="WONKY VEG is a work of art?"
+                            style="width: 369px; height: 126px;"></div>
+                    <div style="height: 17px;"></div>
+                    <h2>레시피 레시판 오픈</h2>
+                    <div style="height: 16px;"></div>
+                    <p>
+                        못난이들의 변신은 무죄! 다양한 방식으로 '요리'라는 예술품이 되는 못난이 채소들. <br>
+                        못난이 채소로 요리된 예술품들을 게시판에 자랑해주시면 매달 2분께 몬내미 박스를 <br>
+                        보내드려요! 직접 만든 예술품들과 요리 꿀팁도 공유하며 정보를 나눠요.
+                    </p>
+                    <div style="height: 9px;"></div>
+                    <a href="sub/recipe_sub.html" class="btn_over" style="color: red;">-> 자세히 보기</a>
+                </div>
+
+                <div class="main_event_imgbox01">
+                    <img src="images/main_page_image/main_event_popup_poster3-01.svg" alt="work of art 홍보 이미지"
+                        style="width: 306px; height: 433px;">
+                </div>
+            </div>
+
+
+            <div class="eventbottom_inner">
+                <div class="main_event eventbottom">
+                    <div class="main_event_imgbox02">
+                        <div class="main_event_position_img_top"><img src="images/main_page_image/main_event_popup_poster1.svg"
+                                alt="popup store 포스터 green" style="width: 316px; height: 448px;"></div>
+                        <div class="main_event_position_img">
+                            <img src="images/main_page_image/main_event_popup_poster2.svg" alt="popup store 포스터 white"
+                                style="width: 234px; height: 331px;">
+                        </div>
+                    </div>
+
+                    <div class="main_event_textbox">
+                        <div class="main_event_textbox02">
+                            <div class="event_img1"><img src="images/main_page_image/main_event_icon2.png" alt="강낭콩 아이콘"
+                                    style="width: 71px; height: 80px; rotate: 180deg;"></div>
+                            <div class="event_img2"><img src="images/main_page_image/main_event_text2.png"
+                                    alt="WONKY VEG is a work of art?" style="width: 428px; height: 126px;"></div>
+                            <div style="height: 17px;"></div>
+                            <h2>부산 몬내미 팝업 스토어 오픈 이벤트</h2>
+                            <div style="height: 16px;"></div>
+                            <p>
+                                2023.5.20 부산역에서 몬내미 팝업 스토어 오픈! <br>
+                                농가에서 갓 받아온 신선한 몬내미 채소들을 만나보세요! <br>
+                                팝업 스토어 기념 이벤트와 팝업 스토어 포토존으로 재미두배!
+                            </p>
+                            <div style="height: 9px;"></div>
+                            <a href="#" class="btn_over" style="color: red;">-> 자세히 보기</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div class="footer_imgbox">
+                <div class="footer_layer1">
+                    <img src="images/footer_img1.gif" style="width: 240px; height: 187px;" alt="밭가는 톰">
+                </div>
+                <div class="footer_layer2">
+                    <img src="images/footer_img2.gif" style="width: 234px; height: 208px;" alt="밭가는 토마">
+                </div>
+            </div>
+            <div class="footer_layer3"><!--transform-->
+            </div>
+
+            <div class="footer_inner">
+                <div class="footer_in">
+                    <div class="footer_logo">
+                        <img src="images/foter_logo.svg" alt="footer logo white">
+                        <div class="footer_margin" style="height: 34px;"></div>
+                        <p>상호:몬내미 ㅣ 대표:이소연 ㅣ 사업자 등록번호: 224-42-00123 ㅣ 통신판매업신고번호: 2023-부산남포-0234</p>
+                        <div class="footer_margin" style="height: 23px;"></div>
+                        <p>'못 생겼으니 맛 없을 것이다.' 라는 편견 대신 '못 생겼으니 개성적이다.' 라는 인식이 몬내미들에게 붙을 그 날까지! <br>
+                            몬내미는 농가와 소비자를 잇는 공정한 다리가 되어 드리겠습니다. 바꿀 수는 없어도 변화할 수 있는 우리가 있으니까!
+                        </p>
+                            <div class="footer_margin" style="height: 54px;"></div>
+                        <p>
+                            Copyright ©몬내미 All rights reserved.
+                        </p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!--js-->
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="js/main_js/slick.js"></script>
+    <script type="text/javascript">
+        $(document).on('ready', function () {
+            $(".regular").slick({
+                centerMode: true,
+                centerPadding: '0px',
+                dots: true,
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,      //자동시작 (boolean) -default:false
+                autoplaySpeed: 2000, //자동넘기기 시간(int, 1000ms = 1초)
+            });
+        });
+    </script><!--regular slider end-->
+    <!-- Swiper JS -->
+    <script src="js/main_js/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+                type: "progressbar",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+    <script src="js/main_js/script.js"></script>
+    <script src="js/main_js/waypoints.min.js"></script>
+    <script src="js/main_js/jquery.counterup.min.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $('#counter1').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
+        jQuery(document).ready(function ($) {
+            $('#counter2').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
+        jQuery(document).ready(function ($) {
+            $('#counter3').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
+        jQuery(document).ready(function ($) {
+            $('#counter4').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
+    </script>
+</body>
+
+</html>
