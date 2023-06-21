@@ -78,7 +78,7 @@
 }
 
 .point_text ul li:nth-child(2)::before {
-    content: "«";
+    content: " ";
     width: 3px;
     height: 123px;
     background-color: #707070;
@@ -90,7 +90,7 @@
 
 
 .point_text ul li:nth-child(2)::after {
-    content: "«";
+    content: " ";
     width: 3px;
     height: 123px;
     background-color: #707070;
