@@ -65,6 +65,7 @@ button{
     white-space: normal;
     font-size: 18px;
     border: 1px solid #707070;
+    border-left: 0px;
 }
 
 .swiper_slide button{
